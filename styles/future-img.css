@@ -1,0 +1,26 @@
+.future-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.future-img img {
+  animation: cat_opacity 2.5s step-start infinite;
+  border-radius: 15%;
+  box-shadow: 0.02rem 0.45rem 0.4rem 0.4rem white;
+  margin-top: 2%;
+}
+
+@keyframes cat_opacity {
+  10% {
+    opacity: 0.8;
+  }
+  30% {
+    opacity: 0.55;
+  }
+  50% {
+    opacity: 0.35;
+  }
+  80% {
+    opacity: 0.1;
+  }
+}

@@ -1,0 +1,63 @@
+:root {
+  --color-h2color: #ffb41f;
+  --color-p_color: wheat;
+  --font-size-fsh2: 1.4rem;
+  --font-size-p: 1rem;
+  --letter-spacing-ls_h2: 0.22rem;
+  --line-height-lh_p: 1.25;
+  --margin-top-mgtop: -0.4rem;
+}
+.avatar img {
+  width: 23rem;
+  height: 28rem;
+  border-radius: 3%;
+}
+.descriptions {
+  margin-left: 5rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.descriptions h2 {
+  opacity: 1;
+  color: var(--color-h2color);
+  letter-spacing: var(--letter-spacing-ls_h2);
+  font-size: var(--font-size-fsh2);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.descriptions p {
+  margin-top: var(--margin-top-mgtop);
+  font-size: var(--font-size-p);
+  color: var(--color-p_color);
+  line-height: var(--line-height-lh_p);
+}
+.descriptions__my-skills:nth-child(5) h2 {
+  animation: info_opacity 4.2s step-start infinite !important;
+}
+
+@keyframes info_opacity {
+  0% {
+    color: #7442c8;
+  }
+  10% {
+    color: #3333ff;
+  }
+  20% {
+    color: #0063cc;
+  }
+  30% {
+    color: #2f5f9e;
+  }
+  40% {
+    color: #08457e;
+  }
+  50% {
+    color: #059fff;
+  }
+  60% {
+    color: #2b6cc4;
+  }
+  70% {
+    color: #0fa3ff;
+  }
+}

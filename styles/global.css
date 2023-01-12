@@ -1,0 +1,12 @@
+body {
+  background: #18171c;
+}
+ul {
+  list-style: none;
+}
+.container {
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

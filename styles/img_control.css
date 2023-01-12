@@ -1,0 +1,26 @@
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.favorite-photos {
+  width: 85%;
+  display: flex;
+  justify-content: space-around;
+}
+.favorite-photos__photo {
+  border-radius: 3%;
+  width: 10rem;
+  text-align: center;
+  transition: 120ms;
+  letter-spacing: 0.1rem;
+  padding: 1.35rem;
+  color: black;
+  font-family: Georgia;
+  background-color: #e4a010;
+}
+.favorite-photos__photo:hover {
+  cursor: pointer;
+  color: whitesmoke;
+  background: #95500c;
+}
